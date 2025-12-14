@@ -9,62 +9,86 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-title                    : "Jiajie Huang"
-title_separator          : "-"
-name                     : "Jiajie Huang"
-description              : "Jiajie Huang's Academic Portfolio"
-url                      : "https://H123S456T.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "H123S456T/H123S456T.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+title: "Jiajie Huang"
+locale: "en-US"
+name: "Jiajie Huang"
+description: "Jiajie Huang's Academic Portfolio"
+url: "https://h123s456t.github.io"
+baseurl: ""
+# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+repository: "H123S456T/H123S456T.github.io"
+teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute: 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-author:
-  name             : "Jiajie Huang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Science Student at Xi'an Jiaotong University"
-  location         : "Xi'an, China"
-  employer         : "Xi'an Jiaotong University"
-  pubmed           : 
-  email            : "123456789xjdhjj@stu.xjtu.edu.cn"
-  researchgate     : 
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "H123S456T"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : 
-  lastfm           :
-  linkedin         :
-  orcid            : 
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : 
-  steam            : 
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+atom_feed:
+  path: # blank (default) uses feed.xml
+  hide: # true, false (default)
+search: true
+search_full_content: # true, false (default)
+search_provider: # lunr (default), algolia, google
 
+# Site Author
+author:
+  name: "Jiajie Huang"
+  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "CS Student at Xi'an Jiaotong University | AI Research"
+  location: "Xi'an, China"
+  employer: "Xi'an Jiaotong University"
+  uri: "https://huangjiajie.vercel.app/"
+  email: "123456789xjdhjj@stu.xjtu.edu.cn"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    # - label: "Google Scholar"
+    #   icon: "fas fa-fw fa-graduation-cap"
+    #   url: "https://scholar.google.com/citations?user=yourID"
+    # - label: "ORCID"
+    #   icon: "ai ai-orcid-square ai-fw"
+    #   url: "https://orcid.org/yourID"
+    # - label: "PubMed"
+    #   icon: "ai ai-pubmed-square ai-fw"
+    #   url: "https://www.ncbi.nlm.nih.gov/pubmed/?term=yourID"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      # url: "https://www.researchgate.net/profile/yourID"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url: "https://www.linkedin.com/in/yourID"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/yourID"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/H123S456T"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/yourID"
+    # - label: "Bluesky"
+    #   icon: "fas fa-fw fa-square"
+    #   url: "https://bsky.app/profile/yourID"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
 
 # Reading Files
 include:
   - .htaccess
   - _pages
-  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -86,15 +110,17 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - Rakefile
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -102,7 +128,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -115,12 +140,10 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
 permalink: /:categories/:title/
@@ -128,14 +151,12 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -144,9 +165,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
-
 
 # Archives
 #  Type
@@ -156,8 +175,8 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
@@ -176,14 +195,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
@@ -200,8 +217,10 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
