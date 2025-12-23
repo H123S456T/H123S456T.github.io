@@ -34,11 +34,11 @@ search_provider: # lunr (default), algolia, google
 # Site Author
 author:
   name: "Jiajie Huang"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/images/profile.jpg"
   bio: "CS Student at Xi'an Jiaotong University | AI Research"
   location: "Xi'an, China"
   employer: "Xi'an Jiaotong University"
-  uri: "https://huangjiajie.vercel.app/"
+  uri: "https://h123s456t.github.io/"
   email: "123456789xjdhjj@stu.xjtu.edu.cn"
   links:
     - label: "Email"
