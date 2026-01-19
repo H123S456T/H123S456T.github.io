@@ -38,23 +38,24 @@ redirect_from:
 
 ## Research Experience
 
-### Research on Multimodal Large Models (2025.9 - present)
+### Research on Multimodal Large Models (2025.9 - Present)
 *Remote Intern | Shanghai Jiao Tong University, supervised by Prof. Linfeng Zhang*
 
-* Developing **StreamingVideoModel**, a novel framework for real-time understanding of continuous video streams in multimodal contexts.
-* Currently conducting extensive experiments to benchmark the model's performance on real-time action recognition tasks and validate its efficiency.
+* Developing **StreamingVideoModel**, a novel framework designed for real-time understanding of continuous video streams.
+* Designed a customized data format and constructed an automated synthesis pipeline to generate annotated video data, enabling system-wide test adaptation and robustness verification.
+* Contributing to the manuscript preparation for a comprehensive **benchmark study** focused on large audio models.
 
 ### Research on Medical Agents (2025.4 - 2025.9)
-*Remote Intern | Westlake University, supervised by Prof. Ziqing Li*
+*Remote Intern | Westlake University, supervised by Prof. Ziqing Li and Dr. Zelin Zang*
 
-* **Co-first authored** a paper accepted for **Oral Presentation at AAAI 2026**, proposing MedLA, a novel logic-driven multi-agent framework to enhance LLM reasoning in complex medical tasks.
-* Innovated a self-checking optimization method to improve model reliability, designed and conducted key experiments to validate the framework's performance, and contributed to manuscript writing.
+* **Co-first authored** a paper accepted for **Oral Presentation at AAAI 2026**, proposing MedLA, a logic-driven multi-agent framework to enhance LLM reasoning in complex medical tasks.
+* Proposed a **syllogism-based medical answering system** equipped with self-checking mechanisms to ensure reliability, and validated the framework’s superior performance through extensive experiments.
 
-### Research on In-Context Learning (ICL) in Large Models (2024.9 - 2025.3)
-*Research Intern | Xi'an Jiaotong University, supervised by Prof. Ning Ding*
+### Research on In-Context Learning (ICL) (2024.9 - 2025.3)
+*Research Intern | Xi’an Jiaotong University, supervised by Prof. Ning Ding*
 
-* Assisted with experiments on In-Context Learning by implementing data processing scripts and analyzing model outputs.
-* Gained hands-on experience in the experimental workflow of large-scale NLP research projects.
+* Investigated **In-Context Learning (ICL)** paradigms, specifically focusing on optimization strategies for in-context example selection.
+* Assisted with experiments on example selection algorithms by implementing **data processing pipelines** and analyzing inference results.
 
 ---
 
