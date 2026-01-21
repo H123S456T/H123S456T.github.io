@@ -17,9 +17,9 @@ title: Jiajie Huang
 email: huangjiajie134@gmail.com
 description: Jiajie Huang's academic portfolio - Computer Science student at Xi'an Jiaotong University
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://h123s456t.github.io # the base hostname & protocol for your site
+url: https://stevenhuang233.github.io # the base hostname & protocol for your site
 twitter_username: 
-github_username: H123S456T
+github_username: StevenHuang233
 
 # Build settings
 markdown: kramdown
@@ -224,14 +224,14 @@ author:
   googlescholar    : 
   email            : "huangjiajie134@gmail.com"
   researchgate     :  
-  uri              : "https://h123s456t.github.io"
+  uri              : "https://stevenhuang233.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "H123S456T"
+  github           : "StevenHuang233"
   google_plus      :
   keybase          :
   instagram        :
@@ -292,9 +292,9 @@ title                    : "Jiajie Huang"
 title_separator          : "-"
 name                     : "Jiajie Huang"
 description              : "Jiajie Huang's academic portfolio - Computer Science student at Xi'an Jiaotong University"
-url                      : "https://h123s456t.github.io"
+url                      : "https://stevenhuang233.io"
 baseurl                  : ""
-repository               : "H123S456T/H123S456T.github.io"
+repository               : "H123S456T/StevenHuang233.github.io"
 teaser                   :  
 breadcrumbs              : false 
 words_per_minute         : 160
@@ -380,7 +380,7 @@ footer:
       url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/H123S456T"
+      url: "https://github.com/StevenHuang233"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url:
