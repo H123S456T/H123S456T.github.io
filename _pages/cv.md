@@ -11,7 +11,7 @@ redirect_from:
 
 # Jiajie Huang
 
-**Email:** huangjiajie134@gmail.com | **Phone:** 19890529985 | **Website:** [https://h123s456t.github.io/](https://h123s456t.github.io/)
+**Email:** huangjiajie134@gmail.com | **Phone:** 19890529985 | **Website:** [https://stevenhuang233.github.io/](https://stevenhuang233.github.io/)
 
 ---
 
@@ -20,8 +20,7 @@ redirect_from:
 **Xi'an Jiaotong University** (2023 - Present)
 * Major: Computer Science and Technology
 * GPA: 3.86/4.3 
-* Ranking: Top 5%
-* CET-6: 497
+* Ranking: Top 10%
 
 ---
 
