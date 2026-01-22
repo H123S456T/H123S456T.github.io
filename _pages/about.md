@@ -28,17 +28,6 @@ I have been fortunate to work with excellent researchers at top institutions:
 
 🎉 **AAAI 2026 Oral Presentation**:  Co-first authored paper on **MedLA**, a logic-driven multi-agent framework for complex medical reasoning with LLMs
 
-🏆 **Awards**: 
-- Lu Shidi Scholarship (2024, 2025)
-- Lanqiao Cup Algorithm Design Competition, Provincial First Prize (2025)
-- Mathematical Contest in Modeling, Honorable Mention (2024)
-
-### Research Interests
-
-- **Multimodal Large Models**: Real-time video understanding and continuous stream processing
-- **Medical AI Agents**: Logic-driven reasoning frameworks for healthcare applications
-- **In-Context Learning**:  Enhancing LLM performance through context optimization
-
 ---
 
 <a name="publications"></a>
@@ -122,12 +111,7 @@ Supervised by Prof.  Stan Z. Li
 
 - **Lu Shidi Scholarship** - 2025
 - **Lu Shidi Scholarship** - 2024
-
-### Competition Awards
-
-- **Lanqiao Cup Algorithm Design Competition** - Provincial First Prize (2025)
-- **Mathematical Contest in Modeling (MCM)** - Honorable Mention (2024)
-
+- 
 ---
 
 
