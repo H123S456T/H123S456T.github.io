@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jiajie Huang (黄嘉杰)"
+title: "Jiajie Huang (黄佳杰)"
 excerpt: "About me"
 author_profile: true
 redirect_from:  
@@ -11,7 +11,7 @@ redirect_from:
 <a name="about-me"></a>
 ## About Me
 
-I am currently an undergraduate student at **Xi'an Jiaotong University**, majoring in **Computer Science and Technology** (GPA: 3.86/4.3, Top 5%). My research interests focus on **multimodal large models**, **medical AI agents**, and **in-context learning**. 
+I am currently an undergraduate student at **Xi'an Jiaotong University**, majoring in **Computer Science and Technology** (GPA: 3.86/4.3, Top 5%). My research interests focus on **multimodal large models** now. 
 
 I have been fortunate to work with excellent researchers at top institutions:  
 - Currently working with Prof.  Linfeng Zhang at **Shanghai Jiao Tong University** on real-time video understanding
@@ -32,13 +32,6 @@ I have been fortunate to work with excellent researchers at top institutions:
 - **Medical AI Agents**: Logic-driven reasoning frameworks for healthcare applications
 - **In-Context Learning**:  Enhancing LLM performance through context optimization
 
-### News & Updates
-
-- **2025.09**:  Started research on StreamingVideoModel at Shanghai Jiao Tong University
-- **2025**:  MedLA paper accepted for Oral Presentation at AAAI 2026
-- **2025**: Received Lu Shidi Scholarship (2nd time) and Provincial First Prize in Lanqiao Cup
-- **2024.09**: Started research on In-Context Learning at XJTU
-
 ---
 
 <a name="publications"></a>
@@ -46,26 +39,17 @@ I have been fortunate to work with excellent researchers at top institutions:
 
 ### Conference Papers
 
-**MedLA:  A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models**  
-**Ma, S. †, Huang, J.†**, Zhang, F., et al.    
-*AAAI Conference on Artificial Intelligence (AAAI 2026)* - **Oral Presentation**  
-†Co-first author  
-📄 [Paper](https://arxiv.org/abs/xxxx) | 💻 [Code](https://github.com/xxx/MedLA) | 🎥 [Video](https://youtube.com/xxx)
-
-<details>
-<summary><b>Abstract</b></summary>
-<p>
-Answering complex medical questions requires not only domain expertise and patient-specific information, but also structured and multi-perspective reasoning. We propose MedLA, a logic-driven multi-agent framework built on large language models.  Each agent organizes its reasoning process into an explicit logical tree based on syllogistic triads, enabling transparent inference and premise-level alignment. 
-</p>
-</details>
+**MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models**  
+**[AAAI'26 Oral]** [ArXiv](https://arxiv.org/abs/xxxx) / [Github](https://github.com/xxx/MedLA) / [X(Twitter)](https://twitter.com/xxx)  
+**Siqi Ma∗**, **Jiajie Huang∗** (co-first author), Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guohui Fan, Zhu Zhang, Zelin Zang.
 
 <!-- 添加更多论文 -->
 
-### Journal Papers
+<!-- ### Journal Papers -->
 
 <!-- 您可以在这里添加期刊论文 -->
 
-### Preprints & Under Review
+<!-- ### Preprints & Under Review -->
 
 <!-- 您可以在这里添加预印本或审稿中的论文 -->
 
@@ -74,35 +58,40 @@ Answering complex medical questions requires not only domain expertise and patie
 <a name="research-experience"></a>
 ## Research Experience
 
-### Multimodal Large Models
-**Shanghai Jiao Tong University** | *Remote Intern* | Sept 2025 - Present  
+### Research on Streaming Video Understanding & Audio Benchmarks
+**Shanghai Jiao Tong University, EPIC Lab** | *Research Intern* | Sept 2025 - Present  
 Supervised by Prof. Linfeng Zhang
 
-- Developing **StreamingVideoModel**, a novel framework designed for real-time understanding of continuous video streams
-- Designed a customized data format and constructed an automated synthesis pipeline to generate annotated video data, enabling system-wide test adaptation and robustness verification
-- Contributing to the manuscript preparation for a comprehensive **benchmark study** focused on large audio models
+**Project: Streaming Video Model with Self-Improvement**
+- Proposed a **self-evolution-based migration method** to transform standard video models into Streaming Video Models, addressing the challenge of real-time continuous video understanding
+- Designed the inference format for streaming scenarios and constructed an **automated data synthesis pipeline** to generate high-quality training data, addressing the data shortage
+- Validated the method's effectiveness via model migration testing (Targeting **ICML**)
 
-**Key Skills:** Video Understanding, Real-time Processing, Data Pipeline Design
+**Project: Audio Model Benchmark**
+- Establishing a comprehensive benchmark for **Long Context Audio** to evaluate the performance bottlenecks of large models on long sequences
+- Contributed to the manuscript preparation and assisted in analyzing performance discrepancies of different models in long-context windows (Submitted to **ACL**)
 
-### Medical AI Agents
-**Westlake University** | *Remote Intern* | Apr 2025 - Sept 2025  
-Supervised by Prof. Ziqing Li and Dr. Zelin Zang
+**Key Skills:** Streaming Video Understanding, Self-Evolution Methods, Data Synthesis, Audio Benchmarking, Long-Context Processing
 
-- **Co-first authored** a paper accepted for **Oral Presentation at AAAI 2026**, proposing MedLA, a logic-driven multi-agent framework to enhance LLM reasoning in complex medical tasks
-- Proposed a **syllogism-based medical answering system** equipped with self-checking mechanisms to ensure reliability
-- Validated the framework's superior performance through extensive experiments on MedDDx and standard medical QA benchmarks
+### Research on Medical Multi-Agent Frameworks (MedLA)
+**Westlake University** | *Research Intern* | Apr 2025 - Sept 2025  
+Supervised by Prof.  Stan Z. Li
 
-**Key Skills:** Multi-Agent Systems, Medical Reasoning, Logic-driven AI
+**Publication: MedLA (AAAI 2026 Oral)**
+- Addressed the lack of logical rigor in existing medical agents by proposing a **logic-driven multi-agent framework**
+- The framework utilizes LLMs to build logic trees with **Syllogistic Triads** (major premise, minor premise, conclusion) and introduces **Graph-guided Discussion** to resolve contradictions, achieving **SOTA on MedDDx**
+- Refined the core Syllogism methodology to enhance reasoning transparency and logic
+- Conducted specific testing tasks to verify module effectiveness and drafted core sections of the paper
 
-### In-Context Learning (ICL)
-**Xi'an Jiaotong University** | *Research Intern* | Sept 2024 - Mar 2025  
-Supervised by Prof. Ning Ding
+**Key Skills:** Multi-Agent Systems, Medical Reasoning, Syllogistic Logic, Graph-guided Discussion, Benchmark Evaluation
 
-- Investigated **In-Context Learning (ICL)** paradigms, specifically focusing on optimization strategies for in-context example selection
-- Assisted with experiments on example selection algorithms by implementing **data processing pipelines** and analyzing inference results
-- Explored the impact of different example selection strategies on LLM performance
+### Algorithm Internship at RWKV
+**RWKV (Yuanshi Intelligence)** | *Algorithm Intern* | Sept 2025 - Dec 2025
 
-**Key Skills:** In-Context Learning, Example Selection, Data Analysis
+- Completed **large-scale training data cleaning** by formulating rules to filter low-quality text
+- Conducted systematic evaluations of the **RWKV model** on multiple NLP benchmark tasks, providing detailed data support for model iteration
+
+**Key Skills:** Data Cleaning, NLP Benchmarking, Model Evaluation, Quality Control
 
 ---
 
@@ -134,55 +123,6 @@ Supervised by Prof. Ning Ding
 
 ---
 
-<a name="skills--expertise"></a>
-## Skills & Expertise
-
-### Programming Languages
-
-- **Proficient:** Python, C/C++
-- **Familiar:** Java, MATLAB, Bash
-
-### Machine Learning & AI
-
-- **Frameworks:** PyTorch, TensorFlow
-- **Areas:** Large Language Models, Multimodal Learning, Multi-Agent Systems, In-Context Learning
-- **Tools:** Hugging Face Transformers, Weights & Biases, TensorBoard
-
-### Development Tools
-
-- **Version Control:** Git, GitHub
-- **Systems:** Linux, Docker
-- **Others:** Jupyter, VS Code, LaTeX
-
-### Languages
-
-- **Chinese:** Native
-- **English:** Fluent (Academic Reading & Writing)
-
----
-
-<a name="projects"></a>
-## Projects
-
-### Research Projects
-
-**StreamingVideoModel** | *2025 - Present*  
-A novel framework for real-time understanding of continuous video streams  
-💻 [Code](https://github.com/xxx) | 📄 [Paper](coming soon)
-
-**MedLA Framework** | *2025*  
-Logic-driven multi-agent system for medical reasoning  
-💻 [Code](https://github.com/xxx) | 📄 [Paper](https://arxiv.org/abs/xxx)
-
-### Open Source Contributions
-
-<!-- 您可以添加开源项目贡献 -->
-
-### Course Projects
-
-<!-- 您可以添加课程项目 -->
-
----
 
 <a name="cv-download"></a>
 ## CV Download
@@ -200,8 +140,6 @@ I'm always open to research collaborations and academic discussions!
 - 📱 **Phone:** +86 19890529985
 - 🌐 **Website:** [https://stevenhuang233.github.io/](https://stevenhuang233.github.io/)
 - 🐙 **GitHub:** [github.com/StevenHuang233](https://github.com/StevenHuang233)
-- 📚 **Google Scholar:** [Your Google Scholar Profile](#)
-- 🔗 **LinkedIn:** [Your LinkedIn Profile](#)
 
 ---
 
