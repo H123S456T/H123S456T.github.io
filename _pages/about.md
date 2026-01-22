@@ -55,39 +55,27 @@ Siqi Ma∗, **Jiajie Huang∗** (co-first author), Bolin Yang, Fan Zhang, Jinlin
 ## Research Experience
 
 ### Research on Streaming Video Understanding & Audio Benchmarks
-**Shanghai Jiao Tong University, EPIC Lab** | *Research Intern* | Sept 2025 - Present  
-Supervised by Prof. Linfeng Zhang
+**Sept 2025 - Present**  
+Research Intern | EPIC Lab, Shanghai Jiao Tong University, supervised by Prof. Linfeng Zhang
 
-**Project: Streaming Video Model with Self-Improvement**
-- Proposed a **self-evolution-based migration method** to transform standard video models into Streaming Video Models, addressing the challenge of real-time continuous video understanding
-- Designed the inference format for streaming scenarios and constructed an **automated data synthesis pipeline** to generate high-quality training data, addressing the data shortage
-- Validated the method's effectiveness via model migration testing (Targeting **ICML**)
-
-**Project: Audio Model Benchmark**
-- Establishing a comprehensive benchmark for **Long Context Audio** to evaluate the performance bottlenecks of large models on long sequences
-- Contributed to the manuscript preparation and assisted in analyzing performance discrepancies of different models in long-context windows (Submitted to **ACL**)
-
-**Key Skills:** Streaming Video Understanding, Self-Evolution Methods, Data Synthesis, Audio Benchmarking, Long-Context Processing
+- Proposed a self-evolution-based migration method to transform standard video models into Streaming Video Models for real-time continuous video understanding
+- Designed inference format for streaming scenarios and constructed automated data synthesis pipeline to generate high-quality training data (Targeting **ICML**)
+- Establishing comprehensive benchmark for Long Context Audio to evaluate performance bottlenecks of large models on long sequences (Submitted to **ACL**)
 
 ### Research on Medical Multi-Agent Frameworks (MedLA)
-**Westlake University** | *Research Intern* | Apr 2025 - Sept 2025  
-Supervised by Prof.  Stan Z. Li
+**Apr 2025 - Sept 2025**  
+Research Intern | Westlake University, supervised by Prof. Stan Z. Li
 
-**Publication: MedLA (AAAI 2026 Oral)**
-- Addressed the lack of logical rigor in existing medical agents by proposing a **logic-driven multi-agent framework**
-- The framework utilizes LLMs to build logic trees with **Syllogistic Triads** (major premise, minor premise, conclusion) and introduces **Graph-guided Discussion** to resolve contradictions, achieving **SOTA on MedDDx**
-- Refined the core Syllogism methodology to enhance reasoning transparency and logic
-- Conducted specific testing tasks to verify module effectiveness and drafted core sections of the paper
-
-**Key Skills:** Multi-Agent Systems, Medical Reasoning, Syllogistic Logic, Graph-guided Discussion, Benchmark Evaluation
+- Proposed a logic-driven multi-agent framework utilizing Syllogistic Triads (major premise, minor premise, conclusion) and Graph-guided Discussion to resolve contradictions, achieving SOTA on MedDDx
+- Refined core Syllogism methodology to enhance reasoning transparency and conducted testing tasks to verify module effectiveness
+- Co-first authored paper accepted for **Oral Presentation at AAAI 2026**
 
 ### Algorithm Internship at RWKV
-**RWKV (Yuanshi Intelligence)** | *Algorithm Intern* | Sept 2025 - Dec 2025
+**Sept 2025 - Dec 2025**  
+Algorithm Intern | RWKV (Yuanshi Intelligence)
 
-- Completed **large-scale training data cleaning** by formulating rules to filter low-quality text
-- Conducted systematic evaluations of the **RWKV model** on multiple NLP benchmark tasks, providing detailed data support for model iteration
-
-**Key Skills:** Data Cleaning, NLP Benchmarking, Model Evaluation, Quality Control
+- Completed large-scale training data cleaning by formulating rules to filter low-quality text
+- Conducted systematic evaluations of RWKV model on multiple NLP benchmark tasks, providing detailed data support for model iteration
 
 ---
 
