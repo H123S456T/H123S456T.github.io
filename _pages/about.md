@@ -37,7 +37,7 @@ I have been fortunate to work with excellent researchers at top institutions:
 
 **MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models**  
 **[AAAI'26 Oral]** [ArXiv](https://arxiv.org/abs/2509.23725) / [Github](https://github.com/alexander2618/MedLA)   
-**Siqi Ma∗**, **Jiajie Huang∗** (co-first author), Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guohui Fan, Zhu Zhang, Zelin Zang.
+Siqi Ma∗, **Jiajie Huang∗** (co-first author), Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guohui Fan, Zhu Zhang, Zelin Zang.
 
 <!-- 添加更多论文 -->
 
