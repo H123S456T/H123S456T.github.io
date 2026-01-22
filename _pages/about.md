@@ -13,6 +13,13 @@ redirect_from:
 
 I am currently an undergraduate student at **Xi'an Jiaotong University**, majoring in **Computer Science and Technology** (GPA: 3.86/4.3, Top 5%). My research interests focus on **multimodal large models** now. 
 
+<div style="background-color: #e8f4f8; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
+  <strong>🎓 Looking for PhD Opportunities (Fall 2027)</strong><br>
+  I am actively seeking PhD positions starting in Fall 2027. I am particularly interested in research areas including multimodal large models, medical AI, and in-context learning. If you have any opportunities or would like to discuss potential collaboration, please feel free to reach out! <br><br>
+  <strong>💼 Open to Research Internships</strong><br>
+  I am also looking for research internship opportunities in AI/ML, especially in areas related to large language models, multimodal learning, and AI for healthcare. 
+</div>
+
 I have been fortunate to work with excellent researchers at top institutions:  
 - Currently working with Prof.  Linfeng Zhang at **Shanghai Jiao Tong University** on real-time video understanding
 - Previously worked with Prof. Ziqing Li at **Westlake University** on medical reasoning with large language models
@@ -40,7 +47,7 @@ I have been fortunate to work with excellent researchers at top institutions:
 ### Conference Papers
 
 **MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models**  
-**[AAAI'26 Oral]** [ArXiv](https://arxiv.org/abs/xxxx) / [Github](https://github.com/xxx/MedLA) / [X(Twitter)](https://twitter.com/xxx)  
+**[AAAI'26 Oral]** [ArXiv](https://arxiv.org/abs/2509.23725) / [Github](https://github.com/alexander2618/MedLA)   
 **Siqi Ma∗**, **Jiajie Huang∗** (co-first author), Bolin Yang, Fan Zhang, Jinlin Wu, Yue Shen, Guohui Fan, Zhu Zhang, Zelin Zang.
 
 <!-- 添加更多论文 -->
