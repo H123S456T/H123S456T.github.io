@@ -216,7 +216,7 @@ compress_html:
 # Site Author
 author:
   name             : "Jiajie Huang"
-  avatar           : "hjj.png"
+  avatar           : "hjj2.png"
   bio              : "Computer Science Student | AI Researcher"
   location         : "Xi'an, China"
   employer         : "Xi'an Jiaotong University"
@@ -294,7 +294,7 @@ name                     : "Jiajie Huang"
 description              : "Jiajie Huang's academic portfolio - Computer Science student at Xi'an Jiaotong University"
 url                      : "https://stevenhuang233.github.io"
 baseurl                  : ""
-repository               : "H123S456T/StevenHuang233.github.io"
+repository               : "https://StevenHuang233.github.io"
 teaser                   :  
 breadcrumbs              : false 
 words_per_minute         : 160
