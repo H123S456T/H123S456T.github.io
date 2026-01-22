@@ -5,24 +5,24 @@ excerpt: "About me"
 author_profile: true
 redirect_from:  
   - /about/
-  - /about. html
+  - /about.html
 ---
 
 <a name="about-me"></a>
 ## About Me
 
-I am currently an undergraduate student at **Xi'an Jiaotong University**, majoring in **Computer Science and Technology** (GPA: 3.86/4.3, Top 5%). My research interests focus on **multimodal large models** now. 
+I am currently an undergraduate student at **Xi'an Jiaotong University**, majoring in **Computer Science and Technology** (GPA: 3.86/4.3, Top 10%). My research interests currently focus on multimodal large models. 
 
 <div style="background-color: #e8f4f8; border-left: 4px solid #2196F3; padding: 15px; margin: 20px 0;">
   <strong>🎓 Looking for PhD Opportunities (Fall 2027)</strong><br>
-  I am actively seeking PhD positions starting in Fall 2027. I am particularly interested in research areas including multimodal large models, medical AI, and in-context learning. If you have any opportunities or would like to discuss potential collaboration, please feel free to reach out! <br><br>
+  I am actively seeking PhD positions starting in Fall 2027. I am particularly interested in research areas including multimodal large models, reasoning large models, and related fields. If you have any opportunities or would like to discuss potential collaboration, please feel free to reach out! <br><br>
   <strong>💼 Open to Research Internships</strong><br>
-  I am also looking for research internship opportunities in AI/ML, especially in areas related to large language models, multimodal learning, and AI for healthcare. 
+  I am also looking for research internship opportunities in AI/ML, especially in areas related to large language models, multimodal learning, and reasoning models. 
 </div>
 
 I have been fortunate to work with excellent researchers at top institutions:  
-- Currently working with Prof.  Linfeng Zhang at **Shanghai Jiao Tong University** on real-time video understanding
-- Previously worked with Prof. Ziqing Li at **Westlake University** on medical reasoning with large language models
+- Currently working with Prof. Linfeng Zhang at **Shanghai Jiao Tong University** on real-time video understanding
+- Previously worked with Prof. Stan Z. Li at **Westlake University** on medical reasoning with large language models
 
 ### Recent Highlights
 
@@ -116,7 +116,6 @@ Algorithm Intern | RWKV (Yuanshi Intelligence)
 I'm always open to research collaborations and academic discussions! 
 
 - 📧 **Email:** [huangjiajie134@gmail. com](mailto:huangjiajie134@gmail.com)
-- 📱 **Phone:** +86 19890529985
 - 🌐 **Website:** [https://stevenhuang233.github.io/](https://stevenhuang233.github.io/)
 - 🐙 **GitHub:** [github.com/StevenHuang233](https://github.com/StevenHuang233)
 
