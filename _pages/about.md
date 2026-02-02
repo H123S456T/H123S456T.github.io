@@ -55,11 +55,11 @@ Siqi Ma∗, **Jiajie Huang∗** (co-first author), Bolin Yang, Fan Zhang, Jinlin
 ## Research Experience
 
 ### Research on Streaming Video Understanding & Audio Benchmarks
-**Sept 2025 - Present**  
+**Sept 2025 - Jan 2026**  
 Research Intern | EPIC Lab, Shanghai Jiao Tong University, supervised by Prof. Linfeng Zhang
 
 - Proposed a self-evolution-based migration method to transform standard video models into Streaming Video Models for real-time continuous video understanding
-- Designed inference format for streaming scenarios and constructed automated data synthesis pipeline to generate high-quality training data (Targeting **ICML**)
+- Designed inference format for streaming scenarios and constructed automated data synthesis pipeline to generate high-quality training data (Submitted to **ICML**)
 - Establishing comprehensive benchmark for Long Context Audio to evaluate performance bottlenecks of large models on long sequences (Submitted to **ACL**)
 
 ### Research on Medical Multi-Agent Frameworks (MedLA)
